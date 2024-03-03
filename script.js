@@ -51,4 +51,4 @@ window.onmousemove = (e) => handleOnMove(e);
 
 window.ontouchmove = (e) => handleOnMove(e.touches[0]);
 
-window.onmouseover = (e) => handleOnUp(e);
+window.onmouseover = (e) => handleOnMove(e);
