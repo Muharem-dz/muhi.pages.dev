@@ -143,7 +143,5 @@ a {
   font-size: small;
 }
 p {
-  padding-left: 7rem;
-  padding-bottom: 0.125rem;
-  padding-top: 0.125rem;
+  text-align: center;
 }
