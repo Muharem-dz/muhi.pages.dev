@@ -3,12 +3,12 @@
   margin: 0;
   padding: 0;
 }
-body{
-background:white;
+body {
+  background: white;
 }
-h1{
-color: white;
-bottom: 20px;
+h1 {
+  color: white;
+  bottom: 20px;
 }
 
 header {
@@ -18,7 +18,6 @@ header {
   padding: 30px 10%;
   background-color: #24252a;
 }
-
 
 .nav__links a,
 .cta,
@@ -108,7 +107,7 @@ header {
   color: #edf0f1;
 }
 
-@media screen and (max-height: 450px) { 
+@media screen and (max-height: 450px) {
   .overlay a {
     font-size: 20px;
   }
@@ -128,11 +127,10 @@ header {
     display: initial;
   }
 }
-i{
-  
-  left:1470px;
-  bottom:560px;
-  font-size:30px;
+i {
+  left: 1470px;
+  bottom: 560px;
+  font-size: 30px;
   cursor: pointer;
   position: absolute;
   left: 89%;
