@@ -128,10 +128,9 @@ header {
   }
 }
 i {
-  left: 1470px;
-  bottom: 560px;
+  top: 15%;
   font-size: 30px;
   cursor: pointer;
   position: absolute;
-  left: 89%;
+  left: 93%;
 }
