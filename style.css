@@ -24,12 +24,12 @@ body {
 }
 /* CSS */
 .button-54 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open sans", sans-serif;
   font-size: 16px;
   letter-spacing: 2px;
   text-decoration: none;
   text-transform: uppercase;
-  color: #000;
+  color: #3f3333;
   cursor: pointer;
   border: 3px solid;
   padding: 0.25em 0.5em;
@@ -53,11 +53,17 @@ body {
   }
 }
 .button {
-  left: 5rem;
-  position: relative;
-  top: 35rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%,50%);
 }
 a {
   text-decoration: none;
   color: black;
+}
+H1 {
+  color: darksalmon;
+  text-align: center;
+  font-weight: bold;
+  font-size: 5rem;
 }

@@ -36,9 +36,6 @@ const handleOnMove = (e) => {
     );
   }
 };
-
-/* -- Had to add extra lines for touch events -- */
-
 window.onmousedown = (e) => handleOnDown(e);
 
 window.ontouchstart = (e) => handleOnDown(e.touches[0]);
@@ -51,4 +48,6 @@ window.onmousemove = (e) => handleOnMove(e);
 
 window.ontouchmove = (e) => handleOnMove(e.touches[0]);
 
-window.ontouchstart = (e) => handleOnUp(e.touches[0]);
+window.ondrag = (e) => handleOnMove(e);
+
+window.onclick = (e) => handleOnMove(e);
